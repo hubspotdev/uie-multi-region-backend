@@ -181,6 +181,8 @@ It is useful to look at the changes along in the Atlas UI to get a feel for how 
 
     You'll be prompted to set a password.
 
+    Note that this password will be required when we setup our Vercel serverless function to talk to our MongoDB cluster.
+
 11. **Retrieve the Connection String**
 
     Get the MongoDB connection string required to connect to your cluster:
