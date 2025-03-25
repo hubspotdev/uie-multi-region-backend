@@ -1,7 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { MongoClient, Collection } from 'mongodb';
 
-// Types
 interface Restaurant {
   location: string;
   postalCode: string;
@@ -17,7 +16,6 @@ interface CreateRestaurantDto {
   cuisine?: string;
 }
 
-// Constants
 const COUNTRY_REGEX = /^[A-Za-z]{2}$/;
 const POSTAL_CODE_REGEX = /^[A-Za-z0-9\s-]{2,10}$/;
 
