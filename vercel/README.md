@@ -80,18 +80,25 @@ Getting Started
 
     Sample Request:
 
-    POST https://<your-vercel-domain>/api/restaurants
+    POST `https://<your-vercel-domain>/api/restaurants`
+    ```json
     {
         "location": "US",
-        "postalCode": "98007",
-        "name": "Cactus"
+        "postalCode": "98106",
+        "name": "Cactus",
+        "cuisine": "Mexican"
     }
+    ```
+
+    Sample request on Postman
+
+    ![Postman](./images/postman.png)
 
     ***Searching Restaurants***
 
     You must specify the location , but the postalCode is optional.
 
-    GET https://<your-vercel-domain>/api/restaurants/api/restaurants?location=US&postalCode=98007
+    GET `https://<your-vercel-domain>/api/restaurants/api/restaurants?location=US&postalCode=98106`
 
 ## Congratulations!
 

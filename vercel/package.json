@@ -1,0 +1,15 @@
+{
+  "name": "vercel-restaurants-app",
+  "version": "1.0.0",
+  "description": "A sample Vercel app for creating and searching for restaurants",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "mongodb": "^6.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.42",
+    "@vercel/node": "^2.9.6",
+    "typescript": "^4.7.3"
+  }
+}
