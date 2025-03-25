@@ -284,13 +284,13 @@ It is useful to look at the changes along in the Atlas UI to get a feel for how 
 
     You can repeat the steps for restaurants in "JP" region to verify that they are sharded to the correct geographical zone.
 
-18. **Pause or Terminate Cluster**
+    Congratulations! You have successfully setup a regionally sharded MongoDB Atlas cluster!
+
+18. **We're done! But remember to Pause or Terminate your Cluster**
 
     Gentle reminder to Pause or Terminate your cluster from the Cluster detail page if you decide to continue playing around with this later!
 
 ## What's next?
-
-  Congratulations! You have successfully setup a regionally sharded MongoDB Atlas cluster!
 
   Our database is now ready to be used in our application.
 
